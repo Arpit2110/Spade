@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [motor Application Test Automation Test Suite]">
+  <test thread-count="5" name="motor Application Test Automation  Test Cases(failed)">
+    <classes>
+      <class name="com.spade.tescases.LoginTest">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="verify_Homepageurl"/>
+          <include name="login"/>
+          <include name="verify_homepagetitle"/>
+        </methods>
+      </class> <!-- com.spade.tescases.LoginTest -->
+      <class name="com.spade.tescases.RegistrationTest">
+        <methods>
+          <include name="login"/>
+          <include name="closebrowser"/>
+          <include name="ClickRegistration"/>
+        </methods>
+      </class> <!-- com.spade.tescases.RegistrationTest -->
+    </classes>
+  </test> <!-- motor Application Test Automation  Test Cases(failed) -->
+</suite> <!-- Failed suite [motor Application Test Automation Test Suite] -->
