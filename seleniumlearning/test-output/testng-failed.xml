@@ -6,7 +6,7 @@
       <class name="com.spade.tescases.RegistrationTest">
         <methods>
           <include name="close"/>
-          <include name="Registration"/>
+          <include name="registration"/>
           <include name="loginintomotorTest"/>
         </methods>
       </class> <!-- com.spade.tescases.RegistrationTest -->

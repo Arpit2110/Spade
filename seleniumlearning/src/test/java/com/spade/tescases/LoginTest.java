@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeMethod;
 public class LoginTest extends BaseClass{
 	
 	@BeforeMethod
-	public void login() {
+	public void login() throws InterruptedException {
 		 Login();
 	}
 	
