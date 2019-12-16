@@ -7,6 +7,7 @@
 		<classes>
 			<class name="com.spade.tescases.LoginTest"></class>
 			<class name="com.spade.tescases.RegistrationTest"></class>
+			<class name="com.spade.tescases.ProcessManagerTest"></class>
 		
 		</classes>
 	</test>
